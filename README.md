@@ -14,4 +14,6 @@ private static void ExibirProdutos(AppDBContext db)          //exibir produtos
         }
         
         
-Se alguém tiver uma luz, agradeço.        
+Se alguém tiver uma luz, agradeço.    
+
+Ps.: Resolvido!
