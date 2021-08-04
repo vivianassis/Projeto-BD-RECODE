@@ -27,7 +27,7 @@ namespace projetocodefirst
             var Produtos = db.Produtos.ToList();
             foreach (var p in Produtos)
             {
-                Console.WriteLine(p.Nome + "\t" + p.Preço.ToString{"c"});
+                Console.WriteLine($"{p.Nome} {p.Preço.ToString("c")}");
             }
         }
     }
